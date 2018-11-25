@@ -181,7 +181,7 @@ if __name__ == '__main__':
 
     recipe_api = RecipeAPI()
 
-    ingredients = input("Enter ingredients seprated by a space: ").split()
+    ingredients = input("Enter ingredients separated by a space: ").split()
     if ingredients == []:
         ingredients = ["apples", "butter", "cinnamon"]
 
